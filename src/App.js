@@ -1,21 +1,16 @@
 import React, { Component } from "react";
-import { BrowserRouter as Router, Route } from "react-router-dom";
 import "./App.css";
-import MovieTitle from "./MovieTitle";
 import Gallery from "./Gallery";
 import Details from "./Details";
+import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
 
-class App extends Component {
+class App extends React.Component {
   render() {
     return (
       <Router>
         <div className="App">
-          
-      
-          <Route path="/" component={Gallery} />
-          <Route path="/details" component={Details} />
-          {/* <Route exact path='/' component={Gallery} /> */}
-          {/* <Route exact path='/details' component={Details} /> */}
+          <Route exact path="/" component={Gallery} />
+          <Route exact path="/:details" component={Details} />
         </div>
       </Router>
     );
