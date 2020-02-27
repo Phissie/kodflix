@@ -1,5 +1,5 @@
 import React from "react";
 
 export default function NotFound() {
-  return "Ooops, it looks like this page doesn't exist :(";
+  return <h1>"Ooops, it looks like this page doesn't exist :("</h1>;
 }

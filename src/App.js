@@ -1,10 +1,10 @@
-import React, { Component } from "react";
+import React from "react";
 import "./App.css";
 import Gallery from "./components/Gallery";
 import Details from "./pages/Details";
 import NotFound from "./pages/Not-Found/Not-Found";
 
-import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 class App extends React.Component {
   render() {
@@ -13,8 +13,8 @@ class App extends React.Component {
         <div className="App">
           <Switch>
             <Route exact path="/" component={Gallery} />
-            <Route component={NotFound} />
-            <Route exact path="/:movieid" component={Details} />
+            <Route exact path="/notfound" component={NotFound} />
+            <Route exact path="/:movieId" component={Details} />
           </Switch>
         </div>
       </Router>
