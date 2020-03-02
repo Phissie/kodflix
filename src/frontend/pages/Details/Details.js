@@ -41,9 +41,12 @@ function DetailContent({ movie }) {
   return (
     <div className="details">
       {" "}
-      <button className="navbutton">
-        <h3 className="buttontext"> Return Home </h3>
-      </button>
+      <div className="navbutton-container">
+        {" "}
+        <button className="navbutton">
+          <h3 className="buttontext"> Return Home </h3>
+        </button>
+      </div>
       <h1> {movie.name}</h1>
       <h2 className="write_up">{movie.synopsis}</h2>
       <img src={url} className="Picture" alt={movie.name} />
