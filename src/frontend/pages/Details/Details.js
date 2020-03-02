@@ -39,11 +39,14 @@ export default class Details extends React.Component {
 function DetailContent({ movie }) {
   let url = require(`../../common/images/${movie.id}.jpg`);
   return (
-    <div className="Details">
+    <div className="details">
       {" "}
+      <button className="navbutton">
+        <h3 className="buttontext"> Return Home </h3>
+      </button>
       <h1> {movie.name}</h1>
       <h2 className="write_up">{movie.synopsis}</h2>
-      <img src={url} className="Picture" alt={movie.name}/>
+      <img src={url} className="Picture" alt={movie.name} />
       {/* <Loading /> */}
     </div>
   );

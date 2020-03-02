@@ -1,13 +1,23 @@
 .Details {
 }
 
-.Picture {
+.picture {
   width: 40%;
   height: 60%;
 }
 .write_up {
   margin: 10px 140px;
 }
+.navbutton {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    color: rgb(235, 67, 221);
+    border-radius: 50%; 
+    outline: none;
+    font-family: 'Quicksand';
+    font-size: 12px;
+}
+
+
 
 @media only screen and (max-width: 600px) {
   .Picture {
