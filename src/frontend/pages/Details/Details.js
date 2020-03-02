@@ -1,7 +1,6 @@
 import React from "react";
 import "./Details.css";
-
-import { Redirect } from "react-router-dom";
+import { Link, Redirect } from "react-router-dom";
 // import getMovies from "../data";
 import Loading from "../../components/Loading/Loading";
 
@@ -41,15 +40,17 @@ function DetailContent({ movie }) {
   return (
     <div className="details">
       {" "}
-      <div className="navbutton-container">
-        {" "}
-        <button className="navbutton">
-          <h3 className="buttontext"> Return Home </h3>
-        </button>
-      </div>
+      <Link to="/">
+        <div className="navbutton-container">
+          {" "}
+          <button className="navbutton">
+            <h3 className="buttontext"> Return Home </h3>
+          </button>
+        </div>
+      </Link>
       <h1> {movie.name}</h1>
       <h2 className="write_up">{movie.synopsis}</h2>
-      <a href={movie.link}>
+      <a href={movie.link} target="_blank" rel="noopener noreferrer">
         <img src={url} className="Picture" alt={movie.name} />
       </a>
     </div>
