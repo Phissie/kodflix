@@ -1,33 +1,33 @@
 const getMovies = function() {
   return [
     {
-      id: "Mulan",
+      id: "mulan",
       name: "Mulan",
       synopsis:
         "A young Chinese maiden disguises herself as a male warrior in order to save her father. A live-action feature film based on Disney/'s Mulan."
     },
     {
-      id: "Titanic",
+      id: "titanic-hdposter",
       name: "Titanic",
       synopsis:
         "A seventeen-year-old aristocrat falls in love with a kind but poor artist aboard the luxurious, ill-fated R.M.S. Titanic."
     },
 
     {
-      id: "Pirates",
+      id: "pirates",
       name: "Pirates",
       synopsis:
         "Captain Jack Sparrow (Johnny Depp) searches for the trident of Poseidon while being pursued by an undead sea Captain and his crew."
     },
     {
-      id: "Chocolat",
+      id: "chocolat",
       name: "Chocolat",
       synopsis:
         "A woman and her daughter open a chocolate shop in a small French village that shakes up the rigid morality of the community."
     },
 
     {
-      id: "Forrest_gump",
+      id: "forrest_gump",
       name: "Forrest_gump",
 
       synopsis:
@@ -35,7 +35,7 @@ const getMovies = function() {
     },
 
     {
-      id: "A star is born",
+      id: "a_star_is_born",
       name: "A star is born",
 
       synopsis:

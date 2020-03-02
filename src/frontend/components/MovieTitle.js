@@ -8,8 +8,10 @@ export default function MovieTitle(props) {
         <Link to={"/" + props.id}>
           <img
             className="posterImage"
-            src={props.logo}
-            alt={`${props.name} logo`}
+            src={require(`../common/images/${props.id}.jpg`)}
+            alt={props.id}
+          />
+          alt={`${props.name} logo`}
           />
         </Link>
         <div className="overlay">
