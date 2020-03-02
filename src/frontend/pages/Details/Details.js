@@ -49,8 +49,9 @@ function DetailContent({ movie }) {
       </div>
       <h1> {movie.name}</h1>
       <h2 className="write_up">{movie.synopsis}</h2>
-      <img src={url} className="Picture" alt={movie.name} />
-      {/* <Loading /> */}
+      <a href={movie.link}>
+        <img src={url} className="Picture" alt={movie.name} />
+      </a>
     </div>
   );
 }
