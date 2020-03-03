@@ -20,7 +20,7 @@ const getMovies = function() {
       name: "Pirates",
       synopsis:
         "Captain Jack Sparrow (Johnny Depp) searches for the trident of Poseidon while being pursued by an undead sea Captain and his crew.",
-      link: "https://www.youtube.com/watch?v=2e-eXJ6HgkQ "
+      link: "https://www.youtube.com/watch?v=-6StS7p5TdQ"
     },
     {
       id: "chocolat",
@@ -45,7 +45,7 @@ const getMovies = function() {
 
       synopsis:
         "A musician helps a young singer find fame as age and alcoholism send his own career into a downward spiral.",
-      link: " "
+      link: " https://www.youtube.com/watch?v=nSbzyEJ8X9E"
     }
   ];
 };
